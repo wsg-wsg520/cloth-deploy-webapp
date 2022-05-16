@@ -134,6 +134,7 @@ function displayResult(data) {
   hide(loader);
   predResult.innerHTML = data.result;
   show(predResult);
+  window.alert("在衣柜左一");
 }
 
 function hide(el) {
